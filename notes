@@ -1,0 +1,67 @@
+opcije pri ukazih: -(ena črka) ali --(več črk)
+
+rm -r : brisanje direktorij (rekurzivno)
+touch (datoteka)
+editor: nano (datoteka)
+cat (datoteka) - preberi
+copy: cp f3/fol/file.py .file.py
+. -> current dir
+rename: mv dat.py dat2.py or ./dat.py ./dat2.py
+
+
+gedit :  txt editor
+
+cat dat.py |grep "keyword"  -> search file
+cat dat.py |grep "keyword"  >key.txt -> save relevant lines to file
+
+sudo nano .bashrc
+
+rights: sudo chmod     g+x     o-r     u+w    a-r (all)    OR -r +x -x
+OR permission bits: r-x ->101 = 5     chmod 555 chmod 777 (all rights)
+
+
+task mngr: top OR htop (F keys!) 
+ip check: ip address OR 
+
+
+ping 8.8.8.8 (1ping google)
+
+
+
+
+GIT
+
+
+
+git init
+git status
+
+git config --global user.name "YN"
+git config --global usar.email "em@ai.l"
+
+touch readme.md
+git add readme.md
+git commit -m "initial commit"
+git log (latest changes)
+
+git branch veja2
+git checkout veja2   git checkout master
+
+"3 commits ahead 1 commit behind"
+
+git remote origin = fork
+touch .gitignore
+
+
+
+
+VSCODE
+
+
+code .
+
+
+
+#! /usr/bin/python3 -> make executable
+ctrl+ shift +p: view: toggle whitespace
+                                     
